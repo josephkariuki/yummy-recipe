@@ -1,0 +1,89 @@
+body {
+  background-image: url(..images//1.jpg)
+}
+h1 {
+    color: white;
+    font-family: century gothic;
+    font-size: 30pt;
+    padding-top: 95px;
+}
+h2 {
+    color: white;
+    font-family: century gothic;
+    font-size: 30pt;
+}
+.container{
+    margin: 16px auto;
+    font-size: 16px;
+    margin-top: 50px;
+}
+a{
+  color: white;
+}
+#log {
+    border-radius: 10px;
+    border-color: #28d;
+}
+.login {
+    margin: 16px auto;
+    font-size: 16px;
+    margin-top: 50px;
+  }
+  
+  /* Reset top and bottom margins from certain elements */
+  .login-header,
+  .login p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .login-container {
+    padding-left: 70px;
+    padding-top: 50px;
+  }
+  
+  /* Every row inside .login-container is defined with p tags */
+  .login p {
+    padding: 12px;
+  }
+  
+  .login input {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 16px;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+  }
+  
+  .login input[type="email"],
+  .login input[type="password"] {
+    background: #fff;
+    border-color: #fff;
+    color: #fff;
+  }
+  
+  /* Text fields' focus effect */
+  .login input[type="email"]:focus,
+  .login input[type="password"]:focus {
+    border-color: #fff;
+  }
+  
+  .login input[type="submit"] {
+    background: #28d;
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .login input[type="submit"]:hover {
+    background: #17c;
+  }
+  
+  /* Buttons' focus effect */
+  .login input[type="submit"]:focus {
+    border-color: #05a;
+  }
